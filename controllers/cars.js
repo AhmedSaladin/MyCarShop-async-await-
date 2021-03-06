@@ -63,7 +63,6 @@ module.exports = {
         await seller.save();
         //we done
         res.status(200).json({ success: true })
-        //you can use return keyword to stop code 
     }
     
 }
