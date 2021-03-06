@@ -8,7 +8,7 @@ const bodyparser = require('body-parser');
 const users = require('./rotues/users');
 const cars =require('./rotues/cars');
 //connect to database
-mongoose.connect('mongodb://ahmed:ahmed0106781075@ds137605.mlab.com:37605/coo', { useNewUrlParser: true });
+mongoose.connect('place database link here', { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 
 //middleware
